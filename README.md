@@ -1,12 +1,12 @@
 # russia-direct
 
-Кастомный `russia-direct.dat` со списком российских доменов для прямого доступа (bypass proxy).
+Кастомный `geosite.dat` со списком российских доменов для прямого доступа (bypass proxy).
 
 ## Файлы
 
 - `domains.lst` — список доменов (редактировать здесь)
-- `build.sh` — скрипт сборки `russia-direct.dat` из `domains.lst`
-- `russia-direct.dat` — собранный файл для v2ray/xray
+- `build.sh` — скрипт сборки `geosite.dat` из `domains.lst`
+- `geosite.dat` — собранный файл для v2ray/xray
 
 ## Сборка
 
@@ -16,7 +16,7 @@
 ./build.sh
 ```
 
-Скрипт клонирует [domain-list-community](https://github.com/v2fly/domain-list-community), генерирует список `russia-direct` из `domains.lst` и собирает `russia-direct.dat`.
+Скрипт клонирует [domain-list-community](https://github.com/v2fly/domain-list-community), удаляет все встроенные списки, генерирует единственный список `russia-direct` из `domains.lst` и собирает `geosite.dat`.
 
 ## Использование
 
@@ -25,7 +25,7 @@
 ```json
 {
   "type": "field",
-  "domain": ["ext:russia-direct.dat:russia-direct"],
+  "domain": ["ext:geosite.dat:russia-direct"],
   "outboundTag": "direct"
 }
 ```
