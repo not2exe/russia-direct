@@ -1,0 +1,101 @@
+# Russia-Direct domain list
+# Каждая строка — домен (включая поддомены)
+# Пустые строки и комментарии (#) игнорируются
+
+# Яндекс
+yandex.ru
+yandex.com
+yandex.net
+ya.ru
+dzen.ru
+kinopoisk.ru
+
+# Соцсети и мессенджеры
+vk.com
+vk.ru
+mail.ru
+ok.ru
+max.ru
+
+# Банки
+sber.ru
+sberbank.ru
+tbank.ru
+tinkoff.ru
+vtb.ru
+alfabank.ru
+raiffeisen.ru
+gazprombank.ru
+
+# Госуслуги
+gosuslugi.ru
+nalog.gov.ru
+pfr.gov.ru
+mos.ru
+
+# Маркетплейсы
+wildberries.ru
+ozon.ru
+avito.ru
+lamoda.ru
+
+# Продукты
+perekrestok.ru
+vprok.ru
+5ka.ru
+x5.ru
+lenta.com
+magnit.ru
+sbermarket.ru
+
+# Электроника
+dns-shop.ru
+mvideo.ru
+citilink.ru
+eldorado.ru
+
+# Доставка и транспорт
+cdek.ru
+rzd.ru
+aeroflot.ru
+pochta.ru
+boxberry.ru
+
+# Связь
+mts.ru
+megafon.ru
+beeline.ru
+tele2.ru
+
+# Медиа
+rbc.ru
+ria.ru
+lenta.ru
+kommersant.ru
+rutube.ru
+
+# IP чекеры
+ifconfig.me
+ipify.org
+checkip.amazonaws.com
+ipinfo.io
+ip-api.com
+ipapi.is
+ipapi.co
+icanhazip.com
+ident.me
+myexternalip.com
+ipecho.net
+whatismyip.com
+whatismyip.net
+whatismyipaddress.com
+whatsmyip.com
+iplocation.io
+2ip.ru
+ip.sb
+
+# Разное
+hh.ru
+2gis.ru
+1c.ru
+sportmaster.ru
