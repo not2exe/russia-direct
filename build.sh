@@ -33,8 +33,8 @@ done > "$TEMP_DIR/data/$LIST_NAME"
 echo "Доменов: $(wc -l < "$TEMP_DIR/data/$LIST_NAME" | tr -d ' ')"
 
 # --- сборка ---
-echo "Собираем $LIST_NAME.dat..."
+echo "Собираем geosite.dat..."
 cd "$TEMP_DIR/dlc"
-go run ./ --datapath="$TEMP_DIR/data" --outputname="$LIST_NAME.dat" --outputdir="$SCRIPT_DIR"
+go run ./ --datapath="$TEMP_DIR/data" --outputname=geosite.dat --outputdir="$SCRIPT_DIR"
 
-echo "Готово: $SCRIPT_DIR/$LIST_NAME.dat ($(du -h "$SCRIPT_DIR/$LIST_NAME.dat" | cut -f1 | tr -d ' '))"
+echo "Готово: $SCRIPT_DIR/geosite.dat ($(du -h "$SCRIPT_DIR/geosite.dat" | cut -f1 | tr -d ' '))"
